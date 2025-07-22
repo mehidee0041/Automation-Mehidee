@@ -1,0 +1,13 @@
+{
+  "name": "bongo-project",
+  "version": "1.0.0",
+  "description": "Java Maven project with Node.js dev setup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "cd bongo && mvn clean compile",
+    "start": "npm run dev"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
